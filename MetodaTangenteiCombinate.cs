@@ -16,12 +16,23 @@ namespace MetodeNumerice
             Console.WriteLine("");
             double condValue = f(a) * ddf(a);
             bool cond = condValue > 0;
-            double xn = cond ? a : b;
+            double xn;
             Console.WriteLine($"n = 0");
-            if (cond)
-                Console.WriteLine($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} > 0 deci x[0] = a = {a}");
+            if (HasInitialValues)
+            {
+                xn = x0;
+                Console.WriteLine("  Using initial values:");
+            }
+            else if (cond)
+            {
+                xn = a;
+                Console.WriteLine($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} > 0 deci x[0] = a = {xn}");
+            }
             else
-                Console.WriteLine($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} <= 0 deci x[0] = b = {b}");
+            {
+                xn = b;
+                Console.WriteLine($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} <= 0 deci x[0] = b = {xn}");
+            }
             Console.WriteLine($"  x[0] = {xn}");
             int n = 1;
             double delta = eps;
