@@ -20,14 +20,13 @@ namespace MetodeNumerice
         public void Run()
         {
             println($"Metoda {GetMethod()}:");
-            println("");
+            println();
             println($"a = {a} | b = {b}");
             println($"precision(eps) = {eps}");
-            println("");
+            println();
             double xn = x0;
-            println($"n = 0");
             println($"  x[0] = {xn}");
-            int n = 1;
+            int n = 0;
             double delta = eps;
             while (delta >= eps)
             {
@@ -39,16 +38,16 @@ namespace MetodeNumerice
                 double denominator = 2 * pow(dfxn, 3);
                 double complex = numerator / denominator;
                 double xn1 = xn - calc - complex;
-                println("");
-                println($"  x[{n}] = {xn} - {fxn} / {dfxn} - ({fxn}^2 * {ddfxn}) / (2 * {dfxn}^3)");
-                println($"  x[{n}] = {xn} - {calc} - {numerator} / {denominator}");
-                println($"  x[{n}] = {xn} - {calc} - {complex} = {xn1}");
+                println();
+                println($"  x[{n + 1}] = {xn} - {fxn} / {dfxn} - ({fxn}^2 * {ddfxn}) / (2 * {dfxn}^3)");
+                println($"  x[{n + 1}] = {xn} - {calc} - {numerator} / {denominator}");
+                println($"  x[{n + 1}] = {xn} - {calc} - {complex} = {xn1}");
                 delta = abs(xn1 - xn);
-                println($"  |x[{n}] - x[{n - 1}]| = {delta} {(delta < eps ? $" < {eps}" : "")}");
+                println($"  |x[{n + 1}] - x[{n}]| = {delta} {(delta < eps ? $" < {eps}" : "")}");
                 xn = xn1;
                 n++;
             }
-            println("");
+            println();
             println("Rezultat:");
             println($"n = {n}");
             println($"  x* = {xn}");

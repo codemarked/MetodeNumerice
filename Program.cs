@@ -26,7 +26,7 @@
 
         static void Main(string[] args)
         {
-            Run(Method.EulerHeun);
+            Run(Method.Tangentei);
             Console.ReadKey();
         }
 

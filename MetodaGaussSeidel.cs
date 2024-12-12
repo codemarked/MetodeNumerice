@@ -28,6 +28,10 @@ namespace MetodeNumerice
             double xn = f1(x0, y0, z0);
             double yn = f2(x0, y0, z0);
             double zn = f3(x0, y0, z0);
+            println($"x[1] = {xn}");
+            println($"y[1] = {yn}");
+            println($"z[1] = {zn}");
+            println();
             int n = 1;
             double delta = eps;
             while (delta >= eps)
@@ -35,11 +39,11 @@ namespace MetodeNumerice
                 double xn1 = f1(xn, yn, zn);
                 double yn1 = f2(xn1, yn, zn);
                 double zn1 = f3(xn1, yn1, zn);
-                println($"x[{n}] = {xn1}");
-                println($"y[{n}] = {yn1}");
-                println($"z[{n}] = {zn1}");
+                println($"x[{n + 1}] = {xn1}");
+                println($"y[{n + 1}] = {yn1}");
+                println($"z[{n + 1}] = {zn1}");
                 delta = max(abs(xn1 - xn), max(abs(yn1 - yn), abs(zn1 - zn)));
-                println($"delta = Max(|x[{n}] - x[{n - 1}]|, |y[{n}] - y[{n - 1}]|) = {delta}");
+                println($"delta = Max(|x[{n + 1}] - x[{n}]|, |y[{n + 1}] - y[{n}]|, |z[{n + 1}] - z[{n}]|) = {delta}");
                 if (delta < eps)
                     println($"delta = {delta.ToString($"F{20}")} < {eps} => STOP");
                 println();

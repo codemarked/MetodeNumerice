@@ -21,10 +21,10 @@ namespace MetodeNumerice
         public void Run()
         {
             println($"Metoda {GetMethod()}:");
-            println("");
+            println();
             println($"a = {a} | b = {b}");
             println($"precision(eps) = {eps}");
-            println("");
+            println();
             double condValue = f(a) * ddf(a);
             bool cond = condValue > 0;
             double xn_1;// x[n-1]
@@ -47,20 +47,18 @@ namespace MetodeNumerice
                 xn = a;
                 println($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} <= 0 deci x[0] = b = {xn_1} si x[1] = a = {xn}");
             }
-            println($"  x[0] = {x0}");
-            println($"  x[1] = {x1}");
+            println($"  x[0] = {xn_1}");
+            println($"  x[1] = {xn}");
             int n = 1;
-            // Recurenta:
             double xn1;
-            double delta = eps;
+            double delta = abs(xn - xn_1);
             while (delta >= eps)
             {
                 double fxn = f(xn);
                 double fxn_1 = f(xn_1);
                 double calc = fxn * (xn - xn_1) / (fxn - fxn_1);
                 xn1 = xn - calc;
-                println("");
-                println($"n = {n + 1}");
+                println();
                 println($"  x[{n + 1}] = {xn} - {fxn} * ({xn} - {xn_1}) / ({fxn} - {fxn_1})");
                 println($"  x[{n + 1}] = {xn} - {calc} = {xn1}");
                 delta = abs(xn1 - xn);
@@ -69,7 +67,7 @@ namespace MetodeNumerice
                 xn = xn1;
                 n++;
             }
-            println("");
+            println();
             println("Rezultat:");
             println($"n = {n}");
             println($"  x* = {xn}");

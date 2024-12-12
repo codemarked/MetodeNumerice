@@ -17,10 +17,10 @@ namespace MetodeNumerice
         public void Run()
         {
             println($"Metoda {GetMethod()}:");
-            println("");
+            println();
             println($"a = {a} | b = {b}");
             println($"precision(eps) = {eps}");
-            println("");
+            println();
             double condValue = f(a) * ddf(a);
             bool cond = condValue > 0;
             double xn = cond ? a : b;
@@ -28,28 +28,27 @@ namespace MetodeNumerice
                 println($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} > 0 deci x[0] = a = {a}");
             else
                 println($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} <= 0 deci x[0] = b = {b}");
-            println(" ");
+            println();
             println($"  x[0] = {xn}");
             int n = 0;
-            double delta;
-            do
+            double delta = eps;
+            while (delta >= eps)
             {
                 double fxn = f(xn);
                 double fxnn = f(xn + fxn);
                 double denominator = fxnn - fxn;
                 double calc = pow(fxn, 2) / denominator;
                 double xn1 = xn - calc;
-                delta = Math.Abs(xn1 - xn);
-                println(" ");
-                println($"n = {n + 1}");
+                delta = abs(xn1 - xn);
+                println();
                 println($"  x[{n + 1}] = {xn} - ({fxn})^2 / ({fxnn} - {fxn})");
                 println($"  x[{n + 1}] = {xn} - ({fxn})^2 / {denominator}");
                 println($"  x[{n + 1}] = {xn} - {calc} = {xn1}");
                 println($"  |x[{n + 1}] - x[{n}]| = {delta} {(delta < eps ? $" < {eps}" : "")}");
                 xn = xn1;
                 n++;
-            } while (delta >= eps);
-            println("");
+            }
+            println();
             println("Rezultat:");
             println($"n = {n}");
             println($"  x* = {xn}");

@@ -31,18 +31,18 @@ namespace MetodeNumerice
             println();
             double xn = x0;
             double yn = y0;
-            int n = 1;
+            int n = 0;
             double delta = eps;
             while (delta >= eps)
             {
                 double xn1 = f(xn, yn);
                 double yn1 = g(xn, yn);
-                println($"x[{n}] = {xn1}");
-                println($"y[{n}] = {yn1}");
+                println($"  x[{n + 1}] = {xn1}");
+                println($"  y[{n + 1}] = {yn1}");
                 delta = max(abs(xn1 - xn), abs(yn1 - yn));
-                println($"delta = Max(|x[{n}] - x[{n - 1}]|, |y[{n}] - y[{n - 1}]|) = {delta}");
+                println($"  delta = Max(|x[{n + 1}] - x[{n}]|, |y[{n + 1}] - y[{n}]|) = {delta}");
                 if (delta < eps)
-                    println($"delta = {delta.ToString($"F{20}")} < {eps} => STOP");
+                    println($"  delta = {delta.ToString($"F{20}")} < {eps} => STOP");
                 println();
                 xn = xn1;
                 yn = yn1;
@@ -50,15 +50,10 @@ namespace MetodeNumerice
             }
             println();
             println($"n = {n}");
-            println($"x[{n}] = {xn}");
-            println($"y[{n}] = {yn}");
+            println($"  x[{n}] = {xn}");
+            println($"  y[{n}] = {yn}");
             println();
             println($"Compare with {xc},{yc} = {abs(xn - xc).ToString($"F{20}")},{abs(yn - yc).ToString($"F{20}")}");
-        }
-
-        static double J(double x, double y)// Determinantul Jacobian
-        {
-            return dfx(x, y) * dgy(x, y) - dfy(x, y) * dgx(x, y);
         }
     }
 }
