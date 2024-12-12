@@ -1,40 +1,46 @@
-﻿using static MetodeNumerice.Program;
+﻿using static MetodeNumerice.Utils;
 
 namespace MetodeNumerice
 {
     public class MetodaAproximatiilorRadPat : MetodaNumerica
     {
+        // Date de intrare - Start
+        public static readonly double decimals = 4;// Precizie
+        public static readonly double eps = 1 / pow(10, decimals);// Precizie = 1/10^(decimals)
+
+        public static readonly double a = 1;
+        // Date de intrare - End
 
         public Method GetMethod() { return Method.AproxRadPatrat; }
         public void Run()
         {
-            Console.WriteLine($"Metoda {GetMethod()}:");
-            Console.WriteLine("");
-            Console.WriteLine($"√{a}");
-            Console.WriteLine($"precision(eps) = {eps}");
-            Console.WriteLine("");
+            println($"Metoda {GetMethod()}:");
+            println();
+            println($"√{a}");
+            println($"precision(eps) = {eps}");
+            println();
             double xn = a;
-            Console.WriteLine($"n = 0");
-            Console.WriteLine($"  x[0] = a = {xn}");
+            println($"n = 0");
+            println($"  x[0] = a = {xn}");
             int n = 1;
             double delta = eps;
             while (delta >= eps)
             {
-                double numerator = xn * (square(xn) + 3 * a);//cube
-                double denominator = 3 * square(xn) + a;//cube
+                double numerator = xn * (pow(xn, 2) + 3 * a);//cube
+                double denominator = 3 * pow(xn, 2) + a;//cube
                 double xn1 = numerator / denominator;
-                Console.WriteLine("");
-                Console.WriteLine($"  x[{n}] = {xn} * ({xn}^2 + 3 * {a}) / (3 * ({xn}^2 + {a}))");
-                Console.WriteLine($"  x[{n}] = {numerator} / {denominator} = {xn1}");
-                delta = Math.Abs(xn1 - xn);
-                Console.WriteLine($"  |x[{n}] - x[{n - 1}]| = {delta} {(delta < eps ? $" < {eps}" : "")}");
+                println("");
+                println($"  x[{n}] = {xn} * ({xn}^2 + 3 * {a}) / (3 * ({xn}^2 + {a}))");
+                println($"  x[{n}] = {numerator} / {denominator} = {xn1}");
+                delta = abs(xn1 - xn);
+                println($"  |x[{n}] - x[{n - 1}]| = {delta} {(delta < eps ? $" < {eps}" : "")}");
                 xn = xn1;
                 n++;
             }
-            Console.WriteLine("");
-            Console.WriteLine("Rezultat:");
-            Console.WriteLine($"n = {n}");
-            Console.WriteLine($"  x* = {xn}");
+            println("");
+            println("Rezultat:");
+            println($"n = {n}");
+            println($"  x* = {xn}");
         }
     }
 }

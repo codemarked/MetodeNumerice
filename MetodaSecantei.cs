@@ -1,44 +1,55 @@
-﻿using static MetodeNumerice.Program;
+﻿using static MetodeNumerice.Utils;
 
 namespace MetodeNumerice
 {
     public class MetodaSecantei : MetodaNumerica
     {
+        // Date de intrare - Start
+        public static readonly Func<double, double> f = (x) => pow(x, 3) - x - 1;// f(x) - functia matematica
+        public static readonly Func<double, double> df = (x) => 3 * pow(x, 2) - 1;// f'(x) - derivata
+        public static readonly Func<double, double> ddf = (x) => 6 * x;// f''(x) - derivata a doua
+
+        public static readonly double decimals = 4;// Precizie
+        public static readonly double eps = 1 / pow(10, decimals);// Precizie = 1/10^(decimals)
+
+        public static readonly double a = 1, b = 2;// Intervalul [a,b]
+        public static readonly bool HasInitialValues = false;// Se dau valori initiale?
+        public static readonly double x0 = 2;// Valori initiale - x[0]
+        public static readonly double x1 = 1.5;// Valori initiale - x[1]
+        // Date de intrare - End
         public Method GetMethod() { return Method.Secantei; }
         public void Run()
         {
-            Console.WriteLine($"Metoda {GetMethod()}:");
-            Console.WriteLine("");
-            Console.WriteLine($"f: [{a},{b}] -> R, f(x) = {functia}");
-            Console.WriteLine($"a = {a} | b = {b}");
-            Console.WriteLine($"precision(eps) = {eps}");
-            Console.WriteLine("");
+            println($"Metoda {GetMethod()}:");
+            println("");
+            println($"a = {a} | b = {b}");
+            println($"precision(eps) = {eps}");
+            println("");
             double condValue = f(a) * ddf(a);
             bool cond = condValue > 0;
             double xn_1;// x[n-1]
             double xn;// x[n]
-            Console.WriteLine($"n = 0");
             if (HasInitialValues)
             {
                 xn_1 = x0;
                 xn = x1;
-                Console.WriteLine("  Using initial values:");
+                println("  Using initial values:");
             }
             else if (cond)
             {
                 xn_1 = a;
                 xn = b;
-                Console.WriteLine($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} > 0 deci x[0] = a = {xn_1} si x[1] = b = {xn}");
+                println($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} > 0 deci x[0] = a = {xn_1} si x[1] = b = {xn}");
             }
             else
             {
                 xn_1 = b;
                 xn = a;
-                Console.WriteLine($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} <= 0 deci x[0] = b = {xn_1} si x[1] = a = {xn}");
+                println($"  f(a) * f''(a) = f({a}) * f''({a}) = {condValue} <= 0 deci x[0] = b = {xn_1} si x[1] = a = {xn}");
             }
-            Console.WriteLine($"  x[0] = {x0}");
-            Console.WriteLine($"  x[1] = {x1}");
-            int n = 2;
+            println($"  x[0] = {x0}");
+            println($"  x[1] = {x1}");
+            int n = 1;
             // Recurenta:
             double xn1;
             double delta = eps;
@@ -48,19 +59,20 @@ namespace MetodeNumerice
                 double fxn_1 = f(xn_1);
                 double calc = fxn * (xn - xn_1) / (fxn - fxn_1);
                 xn1 = xn - calc;
-                Console.WriteLine("");
-                Console.WriteLine($"  x[{n}] = {xn} - {fxn} * ({xn} - {xn_1}) / ({fxn} - {fxn_1})");
-                Console.WriteLine($"  x[{n}] = {xn} - {calc} = {xn1}");
-                delta = Math.Abs(xn1 - xn);
-                Console.WriteLine($"  |x[{n}] - x[{n - 1}]| = {delta} {(delta < eps ? $" < {eps}" : "")}");
+                println("");
+                println($"n = {n + 1}");
+                println($"  x[{n + 1}] = {xn} - {fxn} * ({xn} - {xn_1}) / ({fxn} - {fxn_1})");
+                println($"  x[{n + 1}] = {xn} - {calc} = {xn1}");
+                delta = abs(xn1 - xn);
+                println($"  |x[{n + 1}] - x[{n}]| = {delta} {(delta < eps ? $" < {eps}" : "")}");
                 xn_1 = xn;
                 xn = xn1;
                 n++;
             }
-            Console.WriteLine("");
-            Console.WriteLine("Rezultat:");
-            Console.WriteLine($"n = {n}");
-            Console.WriteLine($"  x* = {xn}");
+            println("");
+            println("Rezultat:");
+            println($"n = {n}");
+            println($"  x* = {xn}");
         }
     }
 }

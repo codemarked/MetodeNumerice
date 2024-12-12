@@ -5,6 +5,82 @@
     {
       "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodatangentei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodatangentei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodaeulermidpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodaeulermidpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodaeuler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodaeuler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodaeulerheun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodaeulerheun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodarungekutta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodarungekutta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodaaproxsucccauchyi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodaaproxsucccauchyi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodaaproxsuccneliniare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodaaproxsuccneliniare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodatangenteicombinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodatangenteicombinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodaaproximatiilorradpatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodaaproximatiilorradpatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodaaproxsuccbilocalaii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodaaproxsuccbilocalaii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodagaussseidel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodagaussseidel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodahalley.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodahalley.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodaaproximatiilorsuccesive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodaaproximatiilorsuccesive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodasteffensen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodasteffensen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodasecantei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodasecantei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodanewton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodanewton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|c:\\users\\roli\\source\\repos\\metodenumerice\\metodacebisev3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4FA5DE2-7875-456B-A1B9-92FCEAB59F97}|MetodeNumerice.csproj|solutionrelative:metodacebisev3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +90,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MetodaEulerHeun.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaEulerHeun.cs",
+              "RelativeDocumentMoniker": "MetodaEulerHeun.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaEulerHeun.cs",
+              "RelativeToolTip": "MetodaEulerHeun.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:26:16.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MetodaEulerMidpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaEulerMidpoint.cs",
+              "RelativeDocumentMoniker": "MetodaEulerMidpoint.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaEulerMidpoint.cs",
+              "RelativeToolTip": "MetodaEulerMidpoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:22:47.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MetodaEuler.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaEuler.cs",
+              "RelativeDocumentMoniker": "MetodaEuler.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaEuler.cs",
+              "RelativeToolTip": "MetodaEuler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:09:31.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MetodaRungeKutta.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaRungeKutta.cs",
+              "RelativeDocumentMoniker": "MetodaRungeKutta.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaRungeKutta.cs",
+              "RelativeToolTip": "MetodaRungeKutta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:23:59.933Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +152,204 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAgAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T13:39:18.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MetodaAproxSuccNeliniare.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproxSuccNeliniare.cs",
+              "RelativeDocumentMoniker": "MetodaAproxSuccNeliniare.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproxSuccNeliniare.cs",
+              "RelativeToolTip": "MetodaAproxSuccNeliniare.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwDMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:23:31.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MetodaAproxSuccCauchyI.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproxSuccCauchyI.cs",
+              "RelativeDocumentMoniker": "MetodaAproxSuccCauchyI.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproxSuccCauchyI.cs",
+              "RelativeToolTip": "MetodaAproxSuccCauchyI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:17:23.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Method.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\Method.cs",
+              "RelativeDocumentMoniker": "Method.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\Method.cs",
+              "RelativeToolTip": "Method.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:33:16.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MetodaTangentei.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaTangentei.cs",
+              "RelativeDocumentMoniker": "MetodaTangentei.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaTangentei.cs",
+              "RelativeToolTip": "MetodaTangentei.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:32:26.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MetodaAproxSuccBilocalaII.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproxSuccBilocalaII.cs",
+              "RelativeDocumentMoniker": "MetodaAproxSuccBilocalaII.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproxSuccBilocalaII.cs",
+              "RelativeToolTip": "MetodaAproxSuccBilocalaII.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:17:18.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MetodaAproximatiilorRadPatr.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproximatiilorRadPatr.cs",
+              "RelativeDocumentMoniker": "MetodaAproximatiilorRadPatr.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproximatiilorRadPatr.cs",
+              "RelativeToolTip": "MetodaAproximatiilorRadPatr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:33:25.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\Utils.cs",
+              "RelativeToolTip": "Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:19:10.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MetodaTangenteiCombinate.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaTangenteiCombinate.cs",
+              "RelativeDocumentMoniker": "MetodaTangenteiCombinate.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaTangenteiCombinate.cs",
+              "RelativeToolTip": "MetodaTangenteiCombinate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:34:14.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MetodaGaussSeidel.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaGaussSeidel.cs",
+              "RelativeDocumentMoniker": "MetodaGaussSeidel.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaGaussSeidel.cs",
+              "RelativeToolTip": "MetodaGaussSeidel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:35:48.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MetodaSteffensen.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaSteffensen.cs",
+              "RelativeDocumentMoniker": "MetodaSteffensen.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaSteffensen.cs",
+              "RelativeToolTip": "MetodaSteffensen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T19:17:10.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MetodaSecantei.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaSecantei.cs",
+              "RelativeDocumentMoniker": "MetodaSecantei.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaSecantei.cs",
+              "RelativeToolTip": "MetodaSecantei.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:56:08.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MetodaNewton.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaNewton.cs",
+              "RelativeDocumentMoniker": "MetodaNewton.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaNewton.cs",
+              "RelativeToolTip": "MetodaNewton.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:31:52.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MetodaHalley.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaHalley.cs",
+              "RelativeDocumentMoniker": "MetodaHalley.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaHalley.cs",
+              "RelativeToolTip": "MetodaHalley.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:33:43.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MetodaCebisev3.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaCebisev3.cs",
+              "RelativeDocumentMoniker": "MetodaCebisev3.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaCebisev3.cs",
+              "RelativeToolTip": "MetodaCebisev3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:33:40.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MetodaAproximatiilorSuccesive.cs",
+              "DocumentMoniker": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproximatiilorSuccesive.cs",
+              "RelativeDocumentMoniker": "MetodaAproximatiilorSuccesive.cs",
+              "ToolTip": "C:\\Users\\Roli\\source\\repos\\MetodeNumerice\\MetodaAproximatiilorSuccesive.cs",
+              "RelativeToolTip": "MetodaAproximatiilorSuccesive.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:36:44.466Z",
               "EditorCaption": ""
             }
           ]
