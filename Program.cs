@@ -5,23 +5,23 @@
 
         static readonly Dictionary<Method, Func<MetodaNumerica>> methods = new()
         {
-            { Method.AproxRadPatrat, () => new MetodaAproximatiilorRadPat() },
+            { Method.AproxRadPatrat, () => new MetodaAproximatiilorRadPat() }, // Lab 4
             { Method.AproximatiilorSuccesive, () => new MetodaAproximatiilorSuccesive() },
-            { Method.AproximatiilorSuccesiveBilocalaII, () => new MetodaAproxSuccBilocalaII() },
-            { Method.AproximatiilorSuccesiveCauchyI, () => new MetodaAproxSuccCauchyI() },
-            { Method.AproximatiilorSuccesiveNeliniare, () => new MetodaAproxSuccNeliniare() },
-            { Method.Cebisev3, () => new MetodaCebisev3() },
-            { Method.Euler, () => new MetodaEuler() },
-            { Method.EulerHeun, () => new MetodaEulerHeun() },
-            { Method.EulerMidpoint, () => new MetodaEulerMidpoint() },
-            { Method.GaussSeidel, () => new MetodaGaussSeidel() },
-            { Method.Halley, () => new MetodaHalley() },
-            { Method.Newton, () => new MetodaNewton() },
-            { Method.RungeKutta, () => new MetodaRungeKutta() },
-            { Method.Secantei, () => new MetodaSecantei() },
-            { Method.Steffensen, () => new MetodaSteffensen() },
-            { Method.Tangentei, () => new MetodaTangentei() },
-            { Method.TangenteiCombinate, () => new MetodaTangenteiCombinate() }
+            { Method.AproximatiilorSuccesiveBilocalaII, () => new MetodaAproxSuccBilocalaII() }, // Lab 11
+            { Method.AproximatiilorSuccesiveCauchyI, () => new MetodaAproxSuccCauchyI() }, // Lab 10
+            { Method.AproximatiilorSuccesiveNeliniare, () => new MetodaAproxSuccNeliniare() }, // Lab 6
+            { Method.Cebisev3, () => new MetodaCebisev3() }, // Lab 3
+            { Method.Euler, () => new MetodaEuler() }, // Lab 7
+            { Method.EulerHeun, () => new MetodaEulerHeun() }, // Lab 7
+            { Method.EulerMidpoint, () => new MetodaEulerMidpoint() }, // Lab 7
+            { Method.GaussSeidel, () => new MetodaGaussSeidel() }, // Lab 6
+            { Method.Halley, () => new MetodaHalley() }, // Lab 3
+            { Method.Newton, () => new MetodaNewton() }, // Lab 5
+            { Method.RungeKutta, () => new MetodaRungeKutta() }, // Lab 8,9
+            { Method.Secantei, () => new MetodaSecantei() }, // Lab 2
+            { Method.Steffensen, () => new MetodaSteffensen() }, // Lab 2
+            { Method.Tangentei, () => new MetodaTangentei() }, // Lab 1
+            { Method.TangenteiCombinate, () => new MetodaTangenteiCombinate() } // Lab 4
         };
 
         static void Main(string[] args)
