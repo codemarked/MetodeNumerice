@@ -18,29 +18,31 @@ namespace MetodeNumerice
         {
             println($"Metoda {GetMethod()}:");
             println();
-            println($"a = {a} | b = {b}");
+            println($"n = {n}");
+            println($"a = {a} | b = {b} | y0 = {y0}");
             println($"precizie(eps) = {eps}");
             println();
             double[] x = new double[n + 1];
             double[,] y = new double[200, n + 1];
             double h = (b - a) / n;
-            x[0] = a;
-            for (int i = 1; i <= n; i++)
+            for (int i = 0; i <= n; i++)
+            {
                 x[i] = a + i * h;
+                println($"x[{i}] = {x[i]}");
+            }
+            println();
             for (int i = 0; i <= n; i++)
                 y[0, i] = y0;
             y[1, 0] = y0;
+            println("m = 1");
             for (int i = 1; i <= n; i++)
             {
                 double t = 0;
                 for (int j = 1; j <= i; j++)
-                {
-                    double sum = f(x[j - 1], y0) + f(x[j], y0);
-                    println($"  j = {j} t = {sum} = f({x[j - 1]};{y0}) + f({x[j]};{y0})");
-                    t += sum;
-                }
-                println($"m = 1 i = {i} t = {t}");
-                y[1, i] = y0 + (b - a) / (2.0 * n) * t;
+                    t += f(x[j - 1], y0) + f(x[j], y0);
+                double h1 = (b - a) / (2.0 * n);
+                y[1, i] = y0 + h1 * t;
+                println($" y[1,{i}] = {y0} + {h1} * {t} = {y[1, i]:F20}");
             }
             int m = 1;
             int maxM = 199;
@@ -57,21 +59,20 @@ namespace MetodeNumerice
                 }
                 if (finished)
                     break;
+                println($"m = {m + 1}");
                 y[m + 1, 0] = y0;
                 for (int i = 1; i <= n; i++)
                 {
                     double t = 0;
                     for (int j = 1; j <= i; j++)
-                    {
-                        double sum = f(x[j - 1], y[m, j - 1]) + f(x[j], y[m, j]);
-                        println($"  j = {j} t = {sum} = f({x[j - 1]};{y[m, j - 1]}) + f({x[j]};{y[m, j]})");
-                        t += sum;
-                    }
-                    println($"m = {m + 1} i = {i} t = {t}");
-                    y[m + 1, i] = y0 + (b - a) / (2.0 * n) * t;
+                        t += f(x[j - 1], y[m, j - 1]) + f(x[j], y[m, j]);
+                    double h1 = (b - a) / (2.0 * n);
+                    y[m + 1, i] = y0 + h1 * t;
+                    println($" y[{m + 1},{i}] = {y0} + {h1} * {t} = {y[m + 1, i]:F20}");
                 }
                 m++;
             }
+            println();
             println($"Ultima iteratie este {m}");
             for (int i = 0; i <= n; i++)
             {

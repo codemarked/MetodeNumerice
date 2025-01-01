@@ -7,10 +7,10 @@ namespace MetodeNumerice
         static int decimale = 14;
         static double eps = 1 / pow(10, decimale);
         static double a = 0, alfa = 1;
-        static double b = /*1*/Math.PI / 4, beta = /*Math.E*/sqrt(2) / 2;
+        static double b = 1, beta = Math.E;
         static int n = 10;
-        static Func<double, double, double> f = (t, x) => -1 / 2.0 * cos(t) - 1 / 2.0 * x /*2 / 3.0 * Math.Pow(Math.E, t) + 1 / 3.0 * x*/;
-        static Func<double, double> g = (t) => cos(t)/*Math.Pow(Math.E, t)*/;
+        static Func<double, double, double> f = (t, x) => 2.0 / 3.0 * pow(Math.E, t) + 1.0 / 3.0 * x;
+        static Func<double, double> g = (t) => pow(Math.E, t);
 
         public Method GetMethod() { return Method.AproximatiilorSuccesiveBilocalaII; }
 
@@ -48,6 +48,7 @@ namespace MetodeNumerice
                 }
                 m++;
             }
+            println();
             println($"Ultima iteratie este {m}");
             for (int i = 0; i <= n; i++)
             {
@@ -56,7 +57,7 @@ namespace MetodeNumerice
             println();
             for (int i = 0; i <= n; i++)
             {
-                println($"delta(x({m},t[{i}]),g(t[{i}])) = |{x[m, i]} - {g(t[i])}| = {abs(x[m, i] - g(t[i])):F20}");
+                println($"delta(x[{m},{i}],x*[{i}]) = |{x[m, i]} - {g(t[i])}| = {abs(x[m, i] - g(t[i])):F20}");
             }
         }
     }
