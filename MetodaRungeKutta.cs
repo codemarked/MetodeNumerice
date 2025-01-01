@@ -4,9 +4,9 @@ namespace MetodeNumerice
 {
     public class MetodaRungeKutta : MetodaNumerica
     {
-        static int ordin = 5;// 5 = ordinul 4 "3/8"
+        static int ordin = 4;// 5 = ordinul 4 "3/8"
         static double x0 = 0, y0 = 1;//[x0,x0 + T]
-        static int n = 10;
+        static int n = 20;
         static double T = 1;// Lungimea intervalului
         static Func<double, double, double> f = (x, y) => y + x;// y'(x)
         static Func<double, double> g = (x) => 2 * pow(Math.E, x) - x - 1;// f(y) - solutia exacta
@@ -16,7 +16,7 @@ namespace MetodeNumerice
         {
             println($"Metoda {GetMethod()}:");
             println();
-            println($"Ordin: {(ordin < 1 ? "3/8" : ordin)}");
+            println($"Ordin: {(ordin < 1 || ordin > 4 ? "4 de tip 3/8" : ordin)}");
             println();
             double h = T / n;
             double[] y = new double[n + 1];
@@ -25,7 +25,7 @@ namespace MetodeNumerice
                 x[i] = x0 + i * h;
             y[0] = y0;
             for (int i = 1; i <= n; i++)
-                println($"y[{i}] = {(y[i] = CalcY(ordin, x, y, h, i)):F20}");
+                println($"y[{i}] = {y[i] = CalcY(ordin, x, y, h, i):F20}");
             println();
             println("Comparam cu solutiile exacte:");
             for (int i = 1; i <= n; i++)
@@ -33,13 +33,15 @@ namespace MetodeNumerice
                 double yi = g(x[i]);
                 println($"y[{i}] = {yi:F20} | Delta = {abs(yi - y[i]):F20}");
             }
+            DrawChart($"Metoda {GetMethod()}: Ordin: {(ordin < 1 || ordin > 4 ? "4 de tip 3/8" : ordin)}",
+                x, y);
         }
 
         static double CalcY(int ordin, double[] x, double[] y, double h, int i)
         {
             switch (ordin)
             {
-                case 1:
+                case 1:// K. Heun
                     {
                         double K1 = f(x[i - 1], y[i - 1]);
                         double K2 = f(x[i - 1] + 2 * h / 3, y[i - 1] + 2 * h / 3 * K1);
@@ -51,7 +53,7 @@ namespace MetodeNumerice
                         double K2 = f(x[i - 1] + 3 * h / 4, y[i - 1] + 3 * h / 4 * K1);
                         return y[i - 1] + h / 3 * (K1 + 2 * K2);
                     }
-                case 3:
+                case 3:// Runge-Simpson
                     {
                         double K1 = f(x[i - 1], y[i - 1]);
                         double K2 = f(x[i - 1] + h / 2, y[i - 1] + h * K1 / 2);

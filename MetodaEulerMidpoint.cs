@@ -26,7 +26,7 @@ namespace MetodeNumerice
             {
                 double K = f(x[i - 1], y[i - 1]);
                 double U = f(x[i - 1] + h / 2.0, y[i - 1] + h / 2.0 * K);
-                y[i] = y[i - 1] + h * U;
+                println($"y[{i}] = {y[i] = y[i - 1] + h * U:F20}");
             }
             println();
             println("Comparam cu solutiile exacte:");
@@ -35,6 +35,7 @@ namespace MetodeNumerice
                 double yi = g(x[i]);
                 println($"y[{i}] = {yi:F20} | Delta = {abs(yi - y[i]):F20}");
             }
+            DrawChart($"Metoda {GetMethod()}", x, y);
         }
     }
 }

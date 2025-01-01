@@ -23,7 +23,7 @@ namespace MetodeNumerice
             for (int i = 1; i <= n; i++)
                 x[i] = x0 + i * h;
             for (int i = 1; i <= n; i++)
-                y[i] = y[i - 1] + h * f(x[i - 1], y[i - 1]);
+                println($"y[{i}] = {y[i] = y[i - 1] + h * f(x[i - 1], y[i - 1]):F20}");
             println();
             println("Comparam cu solutiile exacte:");
             for (int i = 1; i <= n; i++)
@@ -31,6 +31,7 @@ namespace MetodeNumerice
                 double yi = g(x[i]);
                 println($"y[{i}] = {yi:F20} | Delta = {abs(yi - y[i]):F20}");
             }
+            DrawChart($"Metoda {GetMethod()}", x, y);
         }
     }
 }

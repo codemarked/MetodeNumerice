@@ -20,7 +20,7 @@ namespace MetodeNumerice
             double[] t = new double[n + 1];
             for (int i = 1; i <= n; i++)
                 t[i] = a + i * (b - a) / n;
-            double[,] x = new double[200, n + 2];
+            double[,] x = new double[200, n + 1];
             for (int i = 0; i <= n; i++)
                 x[0, i] = (t[i] - a) / (b - a) * beta + (b - t[i]) / (b - a) * alfa;
             int m = 1;

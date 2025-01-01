@@ -4,7 +4,7 @@
     {
         Steffensen, Tangentei, TangenteiCombinate, Halley, Cebisev3, AproxRadPatrat, Secantei,
         AproximatiilorSuccesive, AproximatiilorSuccesiveNeliniare, AproximatiilorSuccesiveCauchyI,
-        AproximatiilorSuccesiveBilocalaII, Newton, RungeKutta, GaussSeidel, Euler,
-        EulerMidpoint, EulerHeun
+        AproximatiilorSuccesiveCauchyII, AproximatiilorSuccesiveBilocalaII, GreenBilocalaIV,
+        Newton, RungeKutta, GaussSeidel, Euler, EulerMidpoint, EulerHeun
     }
 }

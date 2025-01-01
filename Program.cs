@@ -9,12 +9,14 @@
             { Method.AproximatiilorSuccesive, () => new MetodaAproximatiilorSuccesive() },
             { Method.AproximatiilorSuccesiveBilocalaII, () => new MetodaAproxSuccBilocalaII() }, // Lab 11
             { Method.AproximatiilorSuccesiveCauchyI, () => new MetodaAproxSuccCauchyI() }, // Lab 10
+            { Method.AproximatiilorSuccesiveCauchyII, () => new MetodaAproxSuccCauchyII() }, // Lab 12
             { Method.AproximatiilorSuccesiveNeliniare, () => new MetodaAproxSuccNeliniare() }, // Lab 6
             { Method.Cebisev3, () => new MetodaCebisev3() }, // Lab 3
             { Method.Euler, () => new MetodaEuler() }, // Lab 7
             { Method.EulerHeun, () => new MetodaEulerHeun() }, // Lab 7
             { Method.EulerMidpoint, () => new MetodaEulerMidpoint() }, // Lab 7
             { Method.GaussSeidel, () => new MetodaGaussSeidel() }, // Lab 6
+            { Method.GreenBilocalaIV, () => new MetodaGreenBilocalaIV() }, // Lab 12
             { Method.Halley, () => new MetodaHalley() }, // Lab 3
             { Method.Newton, () => new MetodaNewton() }, // Lab 5
             { Method.RungeKutta, () => new MetodaRungeKutta() }, // Lab 8,9
@@ -26,7 +28,7 @@
 
         static void Main(string[] args)
         {
-            Run(Method.Tangentei);
+            Run(Method.GreenBilocalaIV);
             Console.ReadKey();
         }
 

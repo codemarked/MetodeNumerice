@@ -1,4 +1,6 @@
-﻿namespace MetodeNumerice
+﻿using Plotly.NET;
+
+namespace MetodeNumerice
 {
     public class Utils
     {
@@ -65,6 +67,15 @@
         public static double cos(double x)
         {
             return Math.Cos(x);
+        }
+
+        public static void DrawChart(string title, double[] xValues, double[] yValues)
+        {
+            Chart2D.Chart.Line<double, double, string>(
+                xValues,
+                yValues
+            ).WithTitle(title)
+            .Show();
         }
     }
 }
